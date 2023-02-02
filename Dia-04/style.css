@@ -1,0 +1,80 @@
+
+
+/*Primer parrafo*/
+
+h1{
+    color: teal;
+}
+
+strong{
+    color: red;
+}
+
+.destacado{
+    color: orange;
+}
+#subtitulo{
+    color: blue;
+    
+}
+
+a{
+    color: red;
+}
+
+a>em{
+    color: blue;
+}
+
+.especial{
+    color: rgb(204, 56, 204)
+}
+/*FIN Primer parrafo*/
+
+
+/*TABLA*/
+
+table{
+    color: green;
+}
+table th{
+    color: red;
+}
+
+table strong{
+    color: orange;
+}
+
+
+table>caption{
+    color: blue;
+}
+
+table .especial{
+    color: orange;
+}
+
+th+th{
+    color: red ;
+}
+
+
+/*FIN TABLA*/
+
+
+
+/*Segundo Parrafo*/
+
+#adicional{
+    color: olive;
+}
+
+#adicional #especial{
+    color: rgb(248, 138, 156);
+}
+
+#adicional a{
+    color: rgb(48, 206, 48);
+}
+
+/*FIN Segundo Parrafo*/
