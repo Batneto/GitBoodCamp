@@ -27,12 +27,19 @@ a>em{
 }
 
 .especial{
-    color: rgb(204, 56, 204)
+    color: rgb(204, 56, 204);
 }
 /*FIN Primer parrafo*/
 
 
 /*TABLA*/
+
+table,th,td{
+    width: 400px;
+    height: 40px;
+    border: 2px solid black;
+    border-collapse:collapse;
+}
 
 table{
     color: green;
