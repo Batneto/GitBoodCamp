@@ -8,16 +8,14 @@ let numerosBajos=[]
 
 let numerosAltos=[]
 
+
 for (let i = 0; i < inputs; i++) {
 
-    let numero = parseInt(prompt("Ingrese el primer numero: "));
+  do(numeros[i] = parseInt(prompt("Ingrese el primer numero: "))) 
 
-    while(isNaN(numero) || !(numero<=500) || !(numero<=1)) {
+    while(isNaN(numeros[i]) || !(numeros [i] <=500) || !(numeros [i] <=1)) 
 
-        numero = prompt("Ingrese el primer numero: ");
-    }
-
-    numeros.push(numero)
+    numeros.push(numeros[i])
 
         if(numeros[i]<=250){
             numerosBajos.push(numeros[i])

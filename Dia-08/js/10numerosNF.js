@@ -1,15 +1,16 @@
 
-
+const inputs= 10 
 let numeros=[]
 
 
-for (let i = 0; i < 10; i++) {
+for (let i = 0; i < inputs; i++) {
 
-    numeros[i] = prompt("Ingrese el primer numero: ");
+   do(numeros[i] = prompt("Ingrese el primer numero: "))
     
-    while(isNaN(numeros[i])){
-        numeros[i] = prompt("Ingrese el primer numero: ");
-    }
+    while(isNaN(numeros[i]))
+       
+    
+
 }
 
 for(let i=0;i<=numeros.length;i++){
